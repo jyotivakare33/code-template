@@ -18,7 +18,7 @@ body {
   background: none;
 }
 
-.nav-links .dropdown .dropbtn {
+.nav-links , .dropdown , .dropbtn {
   margin: 10px;
   text-decoration: none;
   font-family: sofia-pro, sans-serif;
@@ -82,4 +82,29 @@ nav {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+h2 {
+  font-family: sofia-pro, sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.input-value {
+  border: 2px solid #e4e4e4;
+  border-radius: 8px;
+  font-family: sofia-pro;
+  font-weight: 400;
+  color: #999999;
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+
+.input-value:hover {
+  border: 1px solid #6bd5e1;
 }
