@@ -93,6 +93,12 @@ h2 {
   text-decoration: none;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .input-value {
   border: 2px solid #e4e4e4;
   border-radius: 8px;
@@ -103,8 +109,22 @@ h2 {
   max-width: 400px;
   padding: 8px 12px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .input-value:hover {
   border: 1px solid #6bd5e1;
+}
+
+.btn {
+  background-color: rgb(108, 213, 225);
+  color: rgb(255, 255, 255);
+  font-family: sofia-pro;
+  font-weight: 400;
+  margin: 20px;
+  padding: 9px;
+  width: 80%;
+  max-width: 400px;
+  cursor: pointer;
+  font-size: medium;
 }
