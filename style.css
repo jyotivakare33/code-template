@@ -84,7 +84,7 @@ nav {
   display: block;
 }
 
-h2 {
+h2 , h5 {
   font-family: sofia-pro, sans-serif;
   font-size: 32px;
   line-height: 36px;
