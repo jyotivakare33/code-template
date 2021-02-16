@@ -116,7 +116,7 @@ h2 , h5 {
   border: 1px solid #6bd5e1;
 }
 
-.btn {
+.btn-humantime, .btn-epoch {
   background-color: rgb(108, 213, 225);
   color: rgb(255, 255, 255);
   font-family: sofia-pro;
@@ -127,4 +127,10 @@ h2 , h5 {
   max-width: 400px;
   cursor: pointer;
   font-size: medium;
+}
+
+.year , .month ,.date , .hour , .minutes, .seconds, .timezone {
+  width: 7%;
+  margin: 10px;
+  max-width: 400px;
 }
