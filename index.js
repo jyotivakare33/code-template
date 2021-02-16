@@ -16,6 +16,6 @@ const timezone = document.querySelector('.timezone');
 const resultEpoch = document.querySelector('.result-epoch');
 
 epoch.addEventListener('click',() => {
-    result.innerHTML = (Math.floor(new Date(month.value+' '+date.value+', '+year.value+' '+hour.value+':'+minutes.value+':'+seconds.value).getTime()/1000.0));
+    resultEpoch.innerHTML = (Math.floor(new Date(month.value+' '+date.value+', '+year.value+' '+hour.value+':'+minutes.value+':'+seconds.value).getTime()/1000.0));
 })
 

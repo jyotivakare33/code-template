@@ -18,9 +18,9 @@
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                  <a href="binaryConvertor.html">Binary Convertor</a>
-                  <a href="#">Hex Convertor</a>
-                  <a href="#">Decimal Convertor</a>
+                    <a href="decimalConvertor.html">Decimal Convertor</a>
+                    <a href="hexConvertor.html">Hex Convertor</a>
+                    <a href="decimalConvertor.html">Decimal Convertor</a>
                 </div>
             </div> 
             <a href="index.html" class="nav-links">Unit Convertors</a>
@@ -28,32 +28,37 @@
         </nav>
     </header>
     <div>
-        <h2>TimeStamp Convertor</h2>
+        <h2>Decimal To Hex Convertor</h2>
     </div>
     <div class="container">
-        <input type="number" class="input-value epoch" placeholder="Enter a timestamp to convert">
+        <input type="number" class="input-value hex" placeholder="Ex: 11001">
     </div>
     <div class="container">
-        <button class="btn-humantime">Submit</button>
+        <button class="btn-hex">Submit</button>
     </div>
-    <h5 class="result-humantime"></h5>
+    <h5 class="result-hex"></h5>
 
     <div>
-        <h2>Epoch Convertor</h2>
+        <h2>Decimal To Octal Convertor</h2>
     </div>
     <div class="container">
-        <input type="number" class="input-value year" placeholder="Ex: 2020">
-        <input type="number" class="input-value month" placeholder="Ex: 07">
-        <input type="number" class="input-value date" placeholder="Ex: 20">
-        <input type="number" class="input-value hour" placeholder="Ex: 03">
-        <input type="number" class="input-value minutes" placeholder="Ex: 10">
-        <input type="number" class="input-value seconds" placeholder="Ex: 40">
-        <input type="text" class="input-value timezone" placeholder="Ex: GMT">
+        <input type="number" class="input-value octal" placeholder="Ex: 11001">
     </div>
     <div class="container">
-        <button class="btn-epoch">Submit</button>
+        <button class="btn-octal">Submit</button>
     </div>
-    <h5 class="result-epoch"></h5>
-    <script src="index.js"></script>
+    <h5 class="result-octal"></h5>
+
+    <div>
+        <h2>Decimal To Binary Convertor</h2>
+    </div>
+    <div class="container">
+        <input type="number" class="input-value decimal" placeholder="Ex: 11001">
+    </div>
+    <div class="container">
+        <button class="btn-decimal">Submit</button>
+    </div>
+    <h5 class="result-decimal"></h5>
+    <script src="decimal.js"></script>
 </body>
 </html>
