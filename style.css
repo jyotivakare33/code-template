@@ -116,7 +116,7 @@ h2 , h5 {
   border: 1px solid #6bd5e1;
 }
 
-.btn-humantime, .btn-epoch, .btn-hex, .btn-octal, .btn-decimal {
+.btn-humantime, .btn-epoch, .btn-hex, .btn-octal, .btn-decimal, .btn-start , .btn-stop {
   background-color: rgb(108, 213, 225);
   color: rgb(255, 255, 255);
   font-family: sofia-pro;

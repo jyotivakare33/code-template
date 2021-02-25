@@ -18,4 +18,3 @@ const resultEpoch = document.querySelector('.result-epoch');
 epoch.addEventListener('click',() => {
     resultEpoch.innerHTML = (Math.floor(new Date(month.value+' '+date.value+', '+year.value+' '+hour.value+':'+minutes.value+':'+seconds.value).getTime()/1000.0));
 })
-
