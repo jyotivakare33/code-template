@@ -33,10 +33,40 @@
         </nav>
     </header>
     <div>
-        <h2>Public Ip Address</h2>
+        <h2>Language Translator</h2>
+    </div>
+    <div class="container">
+        <div class="dropdown-container">
+              <select class="translator-input">
+                <option value="">Select The Language</option>
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="it">Italian</option>
+                <option value="ar">Arabic</option>
+                <option value="ko">Korean</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+              </select>              
+        </div> 
+        <div class="dropdown-container">
+            <select class="translator-output">
+                <option value="">Select The Language</option>
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="it">Italian</option>
+                <option value="ar">Arabic</option>
+                <option value="ko">Korean</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+            </select>              
+        </div>
+        <button class="btn-translate">Translate</button>
+    </div>
+    <div class="container">
+        <textarea rows="20" column="100" class="input"></textarea>
     </div>
     <h2 class="result">
     </h2>
-    <script src="index.js"></script>
+    <script src="translator.js"></script>
 </body>
 </html>

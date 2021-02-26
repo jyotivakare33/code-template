@@ -16,6 +16,7 @@ body {
   padding: 0;
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 .nav-links , .dropdown , .dropbtn {
@@ -116,7 +117,7 @@ h2 , h5 {
   border: 1px solid #6bd5e1;
 }
 
-.btn-humantime, .btn-epoch, .btn-hex, .btn-octal, .btn-decimal, .btn-start , .btn-stop {
+.btn-humantime, .btn-epoch, .btn-hex, .btn-octal, .btn-decimal, .btn-start , .btn-stop,.btn-translate {
   background-color: rgb(108, 213, 225);
   color: rgb(255, 255, 255);
   font-family: sofia-pro;
@@ -134,3 +135,41 @@ h2 , h5 {
   margin: 10px;
   max-width: 400px;
 }
+
+textarea {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 30%;
+  margin: 5%;
+  color:black;
+}
+
+select {
+  width: 100%;
+  height: 50px;
+  font-size: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0;
+  background-color:  #3a87ad;
+  border: none;
+  color: black;
+  padding: 10px;
+  padding-right: 38px;
+}
+
+option {
+  background-color: whitesmoke;
+  color:black;
+  cursor: pointer;
+  font-family: sofia-pro;
+  font-weight: 400;
+}
+
+.dropdown-container {
+  margin-right: 50px;
+}
+
+.btn-translate { max-width: 200px;  font-weight: 600;color:black;border:none;
+}
+
