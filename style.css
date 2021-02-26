@@ -1,3 +1,4 @@
+
 header {
   box-shadow: 0 6px 31px -2px rgb(0 0 0 / 10%);
   background-color: white;
@@ -140,7 +141,7 @@ textarea {
   border: 1px solid black;
   border-radius: 4px;
   width: 30%;
-  margin: 5%;
+  margin: 2%;
   color:black;
 }
 
@@ -173,3 +174,68 @@ option {
 .btn-translate { max-width: 200px;  font-weight: 600;color:black;border:none;
 }
 
+
+p.bubble {
+	position: relative;
+	width: 300px;
+	text-align: center;
+	line-height: 1.4em;
+	margin: 40px auto;
+	background-color: #fff;
+	border: 8px solid #333;
+	border-radius: 30px;
+	font-family: sans-serif;
+	padding: 20px;
+	font-size: large;
+}
+
+p.thought {
+	width: 300px;
+	border-radius: 200px;
+	padding: 30px;	
+}
+
+p.bubble:before,
+p.bubble:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+p.speech:before {
+	left: 30px;
+	bottom: -50px;
+	border: 25px solid;
+	border-color: #333 transparent transparent #333;
+}
+
+p.speech:after {
+	left: 38px;
+	bottom: -30px;
+	border: 15px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+p.thought:before,
+p.thought:after {
+	left: 10px;
+	bottom: -30px;
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border: 8px solid #333;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+}
+
+p.thought:after {
+	width: 20px;
+	height: 20px;
+	left: 5px;
+	bottom: -40px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}
